@@ -36,10 +36,11 @@ Completed:creating a budget, creating a billing alarm,  installed AWS CLI, creat
 ### Link to Lucid Chart:
 https://lucid.app/lucidchart/86af84d7-0f69-47d3-b4f9-d775e47861a7/edit?viewport_loc=-985%2C-594%2C3584%2C1728%2C0_0&invitationId=inv_ece30c85-502d-4441-a4d2-4d60f45574ef
 
-![CRUDDUR logical diagram](https://user-images.githubusercontent.com/122380818/220775904-ed3f00e4-1a57-4f02-91a0-83e6f09f64fb.png)
+![CRUDDUR logical diagram](https://user-images.githubusercontent.com/122380818/221010961-f54d21d7-5af5-4f4b-be13-07ad34e33736.png)
+
 
 ### Installed CLI
-Simple downloaded and ran the AWS CLI MSI installer for Windows (64-bit):
+Simply downloaded and ran the AWS CLI MSI installer for Windows (64-bit):
 ```
 https://awscli.amazonaws.com/AWSCLIV2.msi
 ```
