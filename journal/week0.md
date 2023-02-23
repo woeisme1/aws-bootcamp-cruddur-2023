@@ -27,7 +27,9 @@ Chris stressed the importance of asking dumb questions. They will help develop a
 
 Ashish Rajan went through security considerations and best practices. Its so important as security protects networks, apps and environments and help reduce human error. As well as protection against threat actors. As a result of his video IAM USers, Organizations, MFA, Billing Alarms (I want to create this as cheap as possible!) and budgets were all made.
 
-To do list -- Completed:creating a budget, creating a billing alarm,  installed AWS CLI, creating IAM Users and created a logical lucid diagram. 
+## Required Homework
+
+Completed:creating a budget, creating a billing alarm,  installed AWS CLI, creating IAM Users and created a logical lucid diagram. 
 Proof of works:
 Link to Lucid Chart: https://lucid.app/lucidchart/86af84d7-0f69-47d3-b4f9-d775e47861a7/edit?viewport_loc=-985%2C-594%2C3584%2C1728%2C0_0&invitationId=inv_ece30c85-502d-4441-a4d2-4d60f45574ef
 
