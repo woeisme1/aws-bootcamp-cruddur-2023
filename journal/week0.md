@@ -30,11 +30,19 @@ Ashish Rajan went through security considerations and best practices. Its so imp
 ## Required Homework
 
 Completed:creating a budget, creating a billing alarm,  installed AWS CLI, creating IAM Users and created a logical lucid diagram. 
-Proof of works:
-Link to Lucid Chart: https://lucid.app/lucidchart/86af84d7-0f69-47d3-b4f9-d775e47861a7/edit?viewport_loc=-985%2C-594%2C3584%2C1728%2C0_0&invitationId=inv_ece30c85-502d-4441-a4d2-4d60f45574ef
+
+
+## Proof of works:
+### Link to Lucid Chart:
+https://lucid.app/lucidchart/86af84d7-0f69-47d3-b4f9-d775e47861a7/edit?viewport_loc=-985%2C-594%2C3584%2C1728%2C0_0&invitationId=inv_ece30c85-502d-4441-a4d2-4d60f45574ef
 
 ![CRUDDUR logical diagram](https://user-images.githubusercontent.com/122380818/220775904-ed3f00e4-1a57-4f02-91a0-83e6f09f64fb.png)
 
+### Installed CLI
+![CLI Proof](https://user-images.githubusercontent.com/122380818/221008521-321a69a9-c63b-4e27-a701-5ac060d90382.png)
+
+### Created budget
 ![Budgets Screenshot](https://user-images.githubusercontent.com/122380818/220776145-7e044dbb-eede-4b17-8201-b4879b02388f.png)
 
+### Created IAM users 
 ![IAM DASHBOARD SCREENSHOT](https://user-images.githubusercontent.com/122380818/220776162-817173dc-b95b-44bf-902d-fcff7e299df5.png)
