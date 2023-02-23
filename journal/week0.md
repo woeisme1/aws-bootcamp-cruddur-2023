@@ -39,6 +39,10 @@ https://lucid.app/lucidchart/86af84d7-0f69-47d3-b4f9-d775e47861a7/edit?viewport_
 ![CRUDDUR logical diagram](https://user-images.githubusercontent.com/122380818/220775904-ed3f00e4-1a57-4f02-91a0-83e6f09f64fb.png)
 
 ### Installed CLI
+Simple downloaded and ran the AWS CLI MSI installer for Windows (64-bit):
+```
+https://awscli.amazonaws.com/AWSCLIV2.msi
+```
 ![CLI Proof](https://user-images.githubusercontent.com/122380818/221008521-321a69a9-c63b-4e27-a701-5ac060d90382.png)
 
 ### Created budget
