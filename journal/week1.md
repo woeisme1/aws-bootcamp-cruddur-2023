@@ -117,3 +117,4 @@ I played about with '''home_activites.py''' under services and changed some thin
 
 <img width="1113" alt="Dockerfile build 3" src="https://user-images.githubusercontent.com/122380818/227616992-60311c28-0563-4766-9607-53cdc68c8de2.png">
 
+Of course Snopp Dogg is on my app - we will take over the world!
