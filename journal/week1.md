@@ -47,10 +47,7 @@ docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-
 ```
 
 This still gave a 404 error in the preview. But by adding 
-```
-/api/activities/home
-```
-at the end of the ```https://4567-woeisme1-awsbootcampcru-k6wc7tb1jid.ws-eu92.gitpod.io/``` address, I was able to get the preview to work.
+```/api/activities/home``` at the end of the ```https://4567-woeisme1-awsbootcampcru-k6wc7tb1jid.ws-eu92.gitpod.io/``` address, I was able to get the preview to work.
 
 This is what it looked like:
 <img width="500" alt="Dockerfile build 1" src="https://user-images.githubusercontent.com/122380818/227604174-7f8ac9a3-b62a-4d57-992a-b819314f7aab.png">
