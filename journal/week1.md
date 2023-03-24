@@ -106,7 +106,7 @@ networks:
   internal-network:
     driver: bridge
     name: cruddur
-    ```
+```
  
 Docker compose allows us to run multiple containers. It does a docker build and a docker run on both of the containers we had before, whilst also config the env vars etc. To run the container you can use the command in the terminal ```docker compose up```
     or to make life super easy, right click on the docker-compose file and click "compose up"
