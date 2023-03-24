@@ -53,4 +53,13 @@ This is what it looked like:
 <img width="500" alt="Dockerfile build 1" src="https://user-images.githubusercontent.com/122380818/227604174-7f8ac9a3-b62a-4d57-992a-b819314f7aab.png">
 
 ### Creating a frontend
-kk
+Andy had us open up a new terminal and run ```docker ps``` this gave back:
+```
+gitpod /workspace/aws-bootcamp-cruddur-2023 (main) $ docker ps
+CONTAINER ID   IMAGE           COMMAND                  CREATED          STATUS          PORTS                                       NAMES
+40af6ab9ff51   backend-flask   "python3 -m flask ru…"   21 minutes ago   Up 21 minutes   0.0.0.0:4567->4567/tcp, :::4567->4567/tcp   epic_shannon
+```
+Which is very cool. This shows us that we can have containers running in the background.
+
+I went back to the original termincal, stopped the container by using CTRL^C and moved the the frontend file by doing: ```cd frontend-react-js```
+Here I did a npm install ```npm i```
