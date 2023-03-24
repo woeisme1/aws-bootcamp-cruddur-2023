@@ -111,3 +111,9 @@ networks:
 Docker compose allows us to run multiple containers. It does a docker build and a docker run on both of the containers we had before, whilst also config the env vars etc. To run the container you can use the command in the terminal ```docker compose up```
     or to make life super easy, right click on the docker-compose file and click "compose up"
     
+Once everything was done, I check to see if it worked by clicking the public port 3000 ```https://3000-woeisme1-awsbootcampcru-k6wc7tb1jid.ws-eu92.gitpod.io```
+<img width="1216" alt="Dockerfile build 2" src="https://user-images.githubusercontent.com/122380818/227614313-6cdb1f45-6290-424c-84f3-31740c46633a.png">
+I played about with '''home_activites.py''' under services and changed some things to see if the compose reflected changes straight away and they did!
+
+<img width="1113" alt="Dockerfile build 3" src="https://user-images.githubusercontent.com/122380818/227616992-60311c28-0563-4766-9607-53cdc68c8de2.png">
+
