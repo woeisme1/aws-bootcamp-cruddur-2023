@@ -62,4 +62,52 @@ CONTAINER ID   IMAGE           COMMAND                  CREATED          STATUS 
 Which is very cool. This shows us that we can have containers running in the background.
 
 I went back to the original termincal, stopped the container by using CTRL^C and moved the the frontend file by doing: ```cd frontend-react-js```
-Here I did a npm install ```npm i```
+Here I did a npm install ```npm i```. We have to run an  NPM Install before building the container since it needs to copy the contents of node_modules
+
+Similar to how I did in the backend, to create the docker config for the frontend-react-js, I created a file called Dockerfile but I then copied the following code:
+```
+FROM node:16.18
+
+ENV PORT=3000
+
+COPY . /frontend-react-js
+WORKDIR /frontend-react-js
+RUN npm install
+EXPOSE ${PORT}
+CMD ["npm", "start"]
+```
+
+### Creating a docker-compose file
+I created a file called docker-compose.yml in the main root of the project and copied the following code:
+```
+version: "3.8"
+services:
+  backend-flask:
+    environment:
+      FRONTEND_URL: "https://3000-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+      BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+    build: ./backend-flask
+    ports:
+      - "4567:4567"
+    volumes:
+      - ./backend-flask:/backend-flask
+  frontend-react-js:
+    environment:
+      REACT_APP_BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+    build: ./frontend-react-js
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend-react-js:/frontend-react-js
+
+# the name flag is a hack to change the default prepend folder
+# name when outputting the image names
+networks: 
+  internal-network:
+    driver: bridge
+    name: cruddur
+    ```
+ 
+Docker compose allows us to run multiple containers. It does a docker build and a docker run on both of the containers we had before, whilst also config the env vars etc. To run the container you can use the command in the terminal ```docker compose up```
+    or to make life super easy, right click on the docker-compose file and click "compose up"
+    
