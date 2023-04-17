@@ -43,6 +43,9 @@ Next I needed to be in the project directory in order to build the container ima
 
 I needed a code to run the container. The following is the easiest code that also sets the environment variables (env vars) for the container
 ```
+docker build -t  backend-flask ./backend-flask
+```
+```
 docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
 ```
 
