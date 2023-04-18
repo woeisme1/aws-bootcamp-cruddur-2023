@@ -128,3 +128,21 @@ I will not use Cloud9 or cloudtrail within this bootcamp in an effort to remain 
 I have plenty of free hours on gitpod and codespaces that I am confident I won't go over the free tier.
 
 ## Ashish Rajan - Docker Container Security Best Practices
+**What is Container Security?** The practice of protecting your applications hosted on compute services like containers. Common application examples are Single Page Applications (SPas), Microservices, APIs etc
+ 
+**Why care about container security**
+- Container First Strategy - Most apps developed as containers and easier to use and send to others without any additional needs.
+- Most apps are cloud native and developed with cntainers
+- reduce impact of a breach as applications and services are segregated
+- Managed Container Services means that security responsibility is focussed on few things (AWS ECS & ECR)
+- Automation can reduce recovery times to good state fairly easily.
+
+**Why Container Security requires practice**
+-Complexity with Containers
+Relying on CSPs for features
+Unmanaged requires alot more hours of work vs managed and needs you keeping updated on everything containers.
+
+<img width="473" alt="Docker Components" src="https://user-images.githubusercontent.com/122380818/232757210-4f486a6f-775b-4c24-9f5b-7f979230a614.png">
+
+
+- 
