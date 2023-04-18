@@ -121,3 +121,10 @@ I played about with '''home_activites.py''' under services and changed some thin
 <img width="1113" alt="Dockerfile build 3" src="https://user-images.githubusercontent.com/122380818/227616992-60311c28-0563-4766-9607-53cdc68c8de2.png">
 
 Of course Snopp Dogg is on my app - we will take over the world!
+
+## Chirag Nayyar - Spending Considerations
+I will not use Cloud9 or cloudtrail within this bootcamp in an effort to remain within the free tier. I set it up in week 0 and been charged a dollar for the month!
+
+I have plenty of free hours on gitpod and codespaces that I am confident I won't go over the free tier.
+
+## Ashish Rajan - Docker Container Security Best Practices
