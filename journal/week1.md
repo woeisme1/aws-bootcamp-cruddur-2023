@@ -142,7 +142,29 @@ I have plenty of free hours on gitpod and codespaces that I am confident I won't
 Relying on CSPs for features
 Unmanaged requires alot more hours of work vs managed and needs you keeping updated on everything containers.
 
+
+----
 <img width="473" alt="Docker Components" src="https://user-images.githubusercontent.com/122380818/232757210-4f486a6f-775b-4c24-9f5b-7f979230a614.png">
+![docker](https://user-images.githubusercontent.com/122380818/232829550-7c6c8eed-4314-4161-a849-4a0477937e95.svg)
+
+**Container Security Components**
 
 
-- 
+**Best Practices 0 Security**
+- Keep Host and Docker updated to latest security patches
+- Docker daemon and containers should run in non-root user mode
+- Image Vulnerability Scanning
+- Trusting a private vs public image registry
+- No sensitive data in Docker files or images
+- Use Secret Management Services to share secrets
+- Read only File system and Volume for Docker
+- Separate databases for long term storage
+- Use DevSecOps practices while building app security
+- Ensure all code is tested for vulnerabilities before production use.
+
+**How to check my docker compose is secure?** 
+- Use Synk and add to your Github. Import your project and scan to test for vulnerabilities in your dockerfiles (NOT images).
+- AWS Secret Manager / Hashicorp Vault
+
+**Image vulnerablities**
+- Image vulnerability scanning - Amazon Inspector / Clair
