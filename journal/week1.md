@@ -145,7 +145,7 @@ Unmanaged requires alot more hours of work vs managed and needs you keeping upda
 
 ----
 <img width="473" alt="Docker Components" src="https://user-images.githubusercontent.com/122380818/232757210-4f486a6f-775b-4c24-9f5b-7f979230a614.png">
-![docker](https://user-images.githubusercontent.com/122380818/232829550-7c6c8eed-4314-4161-a849-4a0477937e95.svg)
+
 
 **Container Security Components**
 
