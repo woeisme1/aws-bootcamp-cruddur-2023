@@ -174,7 +174,7 @@ Unmanaged requires alot more hours of work vs managed and needs you keeping upda
 I opened the api in the backend named'''openapi-3.0.yml'''
 
 I opened the API using the API tab on docker on the left hand side and edited it with the following:
-'''
+```
  /api/activities/notifications:
     get:
       description: 'Return a feed of activity for all of those that I follow'
@@ -190,8 +190,8 @@ I opened the API using the API tab on docker on the left hand side and edited it
                 type: array
                 items:
                   $ref: '#/components/schemas/Activity'
-'''
+```
 
-This is what my api preview now looks like.
+This is what my api preview now looks like. The api isn't active and uses cookies to mock updates. I signed up using the port 3000 and made an account which can be seen on the left hand side.
 <img width="1053" alt="Screenshot 2023-05-05 184916" src="https://user-images.githubusercontent.com/122380818/236534345-e11f8998-7bc4-4a04-a435-22272b7a0f7f.png">
 <img width="1268" alt="Add endpoint notification gitpod" src="https://user-images.githubusercontent.com/122380818/236534369-1c379dd1-7f19-4514-a2b7-1ad902a815ab.png">
