@@ -150,7 +150,7 @@ Unmanaged requires alot more hours of work vs managed and needs you keeping upda
 **Container Security Components**
 
 
-**Best Practices 0 Security**
+**Best Practices for Security - Top 10**
 - Keep Host and Docker updated to latest security patches
 - Docker daemon and containers should run in non-root user mode
 - Image Vulnerability Scanning
@@ -168,3 +168,6 @@ Unmanaged requires alot more hours of work vs managed and needs you keeping upda
 
 **Image vulnerablities**
 - Image vulnerability scanning - Amazon Inspector / Clair
+
+
+## Create the notification Feature (Backend and Frontend)
